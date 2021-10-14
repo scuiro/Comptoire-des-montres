@@ -1,0 +1,269 @@
+/**
+* 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+@import url("../starbella/responsive.css");
+@media only screen and (max-width: 1550px) {
+    .single-image-block {
+        margin-top: 60px;
+    }
+    .brand-grid .brand_main .product-block {
+        margin: 30px 25px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text1 {
+        line-height: 30px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text2 {
+        line-height: 30px;
+        font-size: 25px;
+    }
+    .sub-banner2 {
+        margin: 0;
+    }
+    .single-cms-text2, .single-cms-text3 {
+        font-size: 40px;
+		line-height: 40px;
+    }
+    .sub-banner6 {
+        margin: 7px 0px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .service-title {
+        padding: 0 10px;
+    }
+    .owl-theme .owl-buttons div.owl-prev {
+        left: 0px;
+    }
+    .owl-theme .owl-buttons div.owl-next {
+        right: 0px;
+        background-position: right 12px;
+    }
+    .owl-theme .owl-buttons div {
+        top: 3%;
+    }
+    .single-image-block {
+        margin-top: 10%;
+    }
+    .brand-grid .brand_main .product-block {
+        margin: 20px 10px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text1 {
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text2 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .shop-now a {
+        padding: 20px 0 0 0;
+    }
+    .service-content .icon-image {
+        width: 25px;
+    }
+    .promotional-hot-product {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .single-image-block {
+        margin-top: 3%;
+    }
+    .description, .tmpmela_banner {
+        margin-bottom: 0px;
+    }
+    .sub-banner2 {
+        margin: 12px 0px;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .sub-banner2 {
+        margin: 6px 0px;
+    }
+}
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+    .single-cms-text2, .single-cms-text3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .single-cms-image {
+        padding-top: 8%;
+    }
+    .single-cms-link {
+        margin: 30px 0 0;
+    }
+}
+@media only screen and (max-width: 979px) {
+    .product-category-image {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .category_link {
+        display: block;
+        width: auto;
+        padding: 20px;
+    }
+    .service-title {
+        text-align: center;
+    }
+    .site-footer .widget .widget-title {
+        background: #fff;
+    }
+    .navigation-bar.active .mobile-menu {
+        overflow-y: auto;
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        transition: all 300ms ease 0s;
+        -webkit-transition: all 300ms ease 0s;
+        -moz-transition: all 300ms ease 0s;
+        -ms-transition: all 300ms ease 0s;
+        -o-transition: all 300ms ease 0s;
+    }
+    .sub-banner6 {
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .sub-banner6 .style-1 .static-wrapper {
+        text-align: center;
+    }
+    .style-1 .static-wrapper {
+        padding: 30px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text2 {
+        line-height: 60px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text1 {
+        line-height: 60px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .shop-now a {
+        padding: 50px 0 0 0;
+    }
+    .service-content .content, .service-content .icon-image {
+        display: block;
+    }
+    .site-footer h3.widget-title {
+        background: #3d3d3d !important;
+        color: #ffffff !important;
+    }
+    .brand-block {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .sub-banner2 {
+        margin: 0;
+    }
+    .single-cms-text1 {
+        margin-top: 10px;
+    }
+    .single-cms-text2 {
+       padding: 10px 0 8px;
+    }
+    .single-cms-text2, .single-cms-text3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .single-cms-image {
+        padding-top: 4%;
+    }
+    .single-cms-link {
+        margin: 10px 0 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .right-cms {
+        padding: 30px !important;
+    }
+    .rev-video-slider .vc_column-inner{
+            padding-left: 0 !important;
+    }
+    .home-service-content {
+        margin: 15px 0;
+    }
+    .cms-bottom-left {
+        padding-right: 0px !important;
+    }
+    .cms-bottom-right {
+        padding-left: 0px !important;
+        margin-top: 30px;
+    }
+    .home .site-header {
+        background-color: rgb(33, 33, 33);
+    }
+    /*****************************************product-category css*******************************************/
+    .wpb_content_element.vc_align_left.product-category-image {
+        text-align: center !important;
+    }
+    .category_link {
+        text-align: center;
+    }
+    .service-list {
+        text-align: center;
+        width: 100%;
+    }
+    .menu-toggle {
+        color: #ffffff;
+    }
+    .service-content {
+        margin-bottom: 15px;
+    }
+    .service-content {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .service-content .content, .service-content .icon-image {
+        display: inline-block;
+        float: none;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .header-cart .shopping_cart a.cart-contents .cart-icon {
+        background-image: url(images/megnor/shopping-bag-responsive.svg);
+    }
+    .header-cart .shopping_cart a.cart-contents .cart-icon:hover {
+        background-image: url(images/megnor/shopping-bag-responsive-hover.svg);
+    }
+    .sticky-menu .header-center {
+        padding: 10px 0;
+    }
+    .sticky-menu .header-right {
+        padding: 10px 0;
+    }
+    #brand-products {
+        text-align: center;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text2 {
+        font-size: 20px;
+    }
+    /****************************************************cms Banner css**************************************************************************/
+}
+@media only screen and (max-width: 379px) {
+    .sub-banner6 .banner-info span {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text1 {
+        line-height: 20px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .shop-now a {
+        padding: 15px 0px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text1 {
+        line-height: 20px;
+        text-align: center;
+        padding: 5px 20px;
+    }
+    .sub-banner6 .style-1.cms-banner-item .text2 {
+        line-height: 22px;
+        text-align: center;
+        padding: 5px 20px;
+    }
+    .style-1 .static-wrapper {
+        padding: 15px;
+    }
+}

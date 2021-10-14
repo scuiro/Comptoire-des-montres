@@ -1,0 +1,40 @@
+/*
+Theme Name: Starbella_jewellery
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+@import url("../starbella/rtl.css");
+.category_link {
+    padding-right: 20px;
+    text-align: left;
+}
+.woocommerce ul.products .compare-button {
+    margin: 0px;
+}
+.mobile-menu {
+    transform: translateX(110%) !important;
+    -webkit-transform: translateX(110%) !important;
+    -o-transform: translateX(110%) !important;
+    -ms-transform: translateX(110%) !important;
+}
+.navigation-bar.active .mobile-menu {
+    transform: translateX(0%) !important;
+    -webkit-transform: translateX(0%) !important;
+    -o-transform: translateX(0%) !important;
+    -ms-transform: translateX(0%) !important;
+}
+.single-cms-wrapper {
+    padding-right: 0;
+    padding-left: 0;
+}
+@media only screen and (max-width: 979px) {
+    .site-footer .textwidget {
+        width: 100%;
+        text-align: right !important;
+    }
+    .brand-block {
+        width: 100% !important;
+    }
+}

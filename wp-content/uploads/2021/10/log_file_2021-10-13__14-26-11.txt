@@ -1,0 +1,105 @@
+
+---Downloaded files---
+The import files for: starbella_jewellery were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/comptoire_des_montres
+Data file = C:\wamp64\www\comptoire_des_montres/wp-content/themes/starbella_jewellery/demo-content/demo8/starbella_jewellery.wordpress.xml
+Widget file = C:\wamp64\www\comptoire_des_montres/wp-content/themes/starbella_jewellery/demo-content/demo8/starbella_jewellery_widgets_settings.wie
+Customizer file = C:\wamp64\www\comptoire_des_montres/wp-content/themes/starbella_jewellery/demo-content/demo8/starbella_jewellery_customizer_export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+shop-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Catégories de produit - Shop by category - Imported to Inactive
+Filtres de produit actifs - Active Filters - Imported to Inactive
+Filtrer les produits par prix - Filter by price - Imported to Inactive
+Nuage d’étiquettes produits - Product Tags - Imported to Inactive
+Liste Produits par note obtenue - Top rated products - Imported to Inactive
+
+Main Sidebar : 
+
+Rechercher - No Title - Imported
+Articles récents - No Title - Imported
+Commentaires récents - No Title - Imported
+Archives - No Title - Imported
+Catégories - No Title - Imported
+Méta - No Title - Imported
+
+Header Offer Text Widget Area : 
+
+Éditeur Visuel - No Title - Imported
+
+Header Shopping Cart Widget Area : 
+
+Panier - Cart - Imported
+
+Header Search Widget Area : 
+
+Rechercher - No Title - Imported
+
+First Footer Widget Area : 
+
+TM - Follow Us Widget - Follow Us - Imported
+
+Second Footer Widget Area : 
+
+Newsletter - Newsletter Signup - Imported
+
+Third Footer Widget Area : 
+
+WooCommerce Accepted Payment Methods - Accepted Payment Methods - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+Slider processed

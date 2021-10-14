@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "AvenirNext";
+    src: url(../fonts/AvenirNext-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "AvenirNext";
+    src: url(../fonts/AvenirNext-DemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "AvenirNext";
+    src: url(../fonts/AvenirNext-Regular.ttf);
+    font-weight: 500;
+}
+
+.bloc h3 {
+    font-family: 'AvenirNext';
+    font-size: 51px;
+    letter-spacing: 0px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.bloc h3:before, .bloc h3:after {
+    display: none;
+}
+.bloc h3.sub-title {
+    font-size: 31px;
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 1200px){
+    .bloc_icon_title {
+        padding: 0px 65px !important;
+    }
+    .bloc_icon_title:not(:last-child):after{
+        content: " ";
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 57px;
+        width: 0.5px;
+        background: #000;
+    }
+    .about .wpb_column:last-child {
+        padding-left: 30px !important;
+    }
+    .about .wpb_column:first-child {
+        padding-right: 30px !important;
+    }
+}
+.bloc_icon_title {
+    text-align: center;
+    font-family: 'AvenirNext';
+    font-weight: 500;
+    position: relative;
+}
+.bloc_icon_title img {
+    object-position: center !important;
+    height: 60px !important;
+    object-fit: cover;
+    width: 60px !important;
+}
+.bloc_icon_title p {
+    font-size: 16px !important;
+}
+.woonew img {
+    height: 360px !important;
+    max-width: fit-content!important;
+    width: auto !important;
+}
+.woonew .left-info h3 {
+    font-family: 'AvenirNext' !important;
+    font-weight: 700 !important;
+    text-align: center;
+    color: #000 !important;
+    font-size: 21px !important;
+}
+.woonew .left-info{
+    margin-bottom: 0px !important;
+}
+.woonew ul.products li.product .price {
+    border-top: none !important;
+    padding-top: 0px !important;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'AvenirNext';
+}
+.woonew .image-block img {
+    display: inline-block !important;
+    width: 100% !important;
+    object-fit: none;
+    object-position: center;
+}
+.woonew .container-inner {
+    margin: 0px !important;
+    width: 100%;
+}
+.woonew .image-block {
+    width: 100% !important;
+    text-align: center;
+}
+.woonew h4 p {
+    padding: 0px !important;
+    font-family: 'AvenirNext';
+    font-weight: 500;
+    text-align: center;
+}
+.collection:last-child {
+    padding-right: 0px !important;
+}
+.collection {
+    padding-right: 5px !important;
+}
+.collection img {
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+.collection p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'AvenirNext';
+    font-weight: 500 !important;
+    line-height: 45px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.about .bloc {
+    margin-bottom: 35px;
+}
+
+.about p {
+    font-family: 'AvenirNext';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}

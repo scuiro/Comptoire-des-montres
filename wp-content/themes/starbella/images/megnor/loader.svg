@@ -1,0 +1,10 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    
+    
+  <g class="currentLayer" style=""><title>Layer 1</title><circle cx="50" cy="49.47368240356445" r="33.455322265625" fill="none" ng-attr-stroke="{{config.c1}}" ng-attr-stroke-width="{{config.width}}" stroke="#000000" stroke-width="5" id="svg_1" class="selected" stroke-opacity="1">
+      <animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="2.6" keySplines="0 0.2 0.8 1" begin="-1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="2.6" keySplines="0.2 0 0.8 1" begin="-1.3s" repeatCount="indefinite"/>
+    </circle><circle cx="50.526315808296204" cy="50" r="39.74952697753906" fill="#242424" ng-attr-stroke="{{config.c2}}" ng-attr-stroke-width="{{config.width}}" stroke="#242424" stroke-width="5" id="svg_2" class="" stroke-opacity="1" fill-opacity="1">
+      <animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="2.6" keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="2.6" keySplines="0.2 0 0.8 1" begin="0s" repeatCount="indefinite"/>
+    </circle></g></svg>
